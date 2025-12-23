@@ -1,0 +1,7 @@
+services:
+  app:
+    image: ghcr.io/kirillchertoganov/ci_cd_github_action:__TAG__
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+
